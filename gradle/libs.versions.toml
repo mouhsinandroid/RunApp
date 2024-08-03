@@ -5,7 +5,7 @@ core = "1.10.3"
 playCore = "1.10.3"
 coreSplashscreen = "1.0.1"
 coilCompose = "2.6.0"
-composeCompiler = "1.5.9"
+composeCompiler = "1.5.14"
 desugar_jdk_libs = "2.0.4"
 kotlin = "1.9.24"
 coreKtx = "1.12.0"
@@ -119,4 +119,6 @@ room = { id = "androidx.room", version.ref = "room" }
 org-jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "org-jetbrains-kotlin-jvm" }
 androidDynamicFeature = { id = "com.android.dynamic-feature", version.ref = "agp" }
 mapsplatform-secrets-plugin = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "secretsPlugin"}
-runapp-android-application = {id = "runapp.android.application"}
+
+runapp-android-application = {id = "runapp.android.application" , version = "unspecified"}
+runapp-android-application-compose = { id = "runapp.android.application.compose", version = "unspecified" }
